@@ -1,0 +1,124 @@
+<html>
+<head>
+    <title>TJ's Frozen Yogurt and Coffee</title>
+    <style>
+        /* http://meyerweb.com/eric/tools/css/reset/
+v2.0b1 | 201101
+NOTE: WORK IN PROGRESS
+USE WITH CAUTION AND TEST WITH ABANDON */
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, figcaption, figure,
+        footer, header, hgroup, menu, nav, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure,
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+
+        body {
+            line-height: 1;
+            margin: 0;
+            font-family: "jaf-bernina-sans-comp", sans-serif;
+        }
+
+        ol, ul {
+            list-style: none;
+        }
+
+        blockquote, q {
+            quotes: none;
+        }
+
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+
+        /* remember to define visible focus styles!
+        :focus {
+        outline: ?????;
+        } */
+
+        /* remember to highlight inserts somehow! */
+        ins {
+            text-decoration: none;
+        }
+
+        del {
+            text-decoration: line-through;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, h3, h4, h5, h6, p {
+            font-family: "jaf-bernina-sans-comp", sans-serif;
+        }
+
+        h1, h2 {
+            font-weight: 800;
+        }
+
+        h3, h4, h5, h6 {
+            font-weight: 700;
+        }
+
+        p {
+            font-weight: 400;
+        }
+        #page {
+            width: 970px;
+            height: 250px;
+            overflow: hidden;
+        }
+        #page a {
+            display: block;
+            width: 970px;
+            height: 250px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"
+            integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
+            crossorigin="anonymous"></script>
+    <script src="jquery.preload/jquery.preload.min.js"></script>
+    <script>
+        $( document ).ready(function() {
+            var newSrc = "tj-knickerbocker970x250.gif";
+            $.preload(newSrc);
+            $('img#image').attr('src', newSrc);
+        });
+    </script>
+</head>
+<body>
+<div id="page">
+  <a id="imglink" href="" title="TJs Frozen Yogurt and Coffee"><img id="image" src="tj-970x250-version2-lattes-knicker.png" alt="TJ's Frozen Yogurt N. Bryant at 14th St." /></a>
+</div>
+</body>
+</html>
